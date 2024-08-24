@@ -14,10 +14,10 @@
 
 <body>
 <header class="container mx-auto mb-24">
-  <!-- navbar styles -->
-<nav>
+   <!-- navbar styles  -->
+ <nav>
     <div class="navbar bg-base-100 items-center">
-        <div class="navbar-start">
+        <div class="navbar-start w-full">
          
           <i class="fa-solid fa-square-arrow-up-right text-green-300 text-xl"></i> 
           <a class=" text-xl font-bold">Rinterio</a>
@@ -32,13 +32,13 @@
             <li><a>Contact Us</a></li>
           </ul>
         </div>
-        <div class="dropdown">
+        <div class="dropdown ">
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
             <i class="fa-solid fa-bars"></i>
           </div>
           <ul
             tabindex="0"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            class="menu menu-sm right-0 absolute dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
             <li><a>Home</a></li>
             <li><a>Services</a></li>
             <li><a>Potfolio</a></li>
@@ -47,15 +47,15 @@
           
           </ul>
         </div>
-        <div class="navbar-end gap-4">
+        <div class="navbar-end gap-4  hidden lg:flex">
             <i class="fa-solid fa-magnifying-glass bg-white"></i>
             <i class="fa-solid fa-cart-shopping bg-white"></i>
           <a class="p-2 rounded-3xl p bg-lime-300">Book Consult <i class="fa-solid fa-square-arrow-up-right text-xl text-white rounded-full"></i></a>
           
         </div>
       </div>
-</nav>
-<!-- banner section style  -->
+</nav> 
+
 <section >
   <div>
     <div>
@@ -90,7 +90,7 @@
             <img class="" src="assets/commercial.png" alt="">
           </div>
           <div>
-            <h3>Commercial</h3>
+            <h3 class="font-bold">Commercial</h3>
             <p>The barn house captivates with its blend of rustic charm and modern.</p>
           </div>
         </div>
@@ -99,7 +99,7 @@
             <img class="mt-5" src="assets/commercial.png" alt="">
           </div>
           <div>
-            <h3>Commercial</h3>
+            <h3 class="font-bold">Commercial</h3>
             <p>The barn house captivates with its blend of rustic charm and modern.</p>
           </div>
         </div>
@@ -110,11 +110,33 @@
     </div>
   </div>
 </div>
-<section>
-
+<section class="  ml-36 mr-36">
+   <div class="grid lg:grid-cols-4">
+    <div class="p-9">
+      <i class="fa-solid fa-user-group ml-14"></i>
+      <h1 class="ml-10 text-3xl font-bold">235+</h1>
+      <p>Happy Client Review</p>
+    </div>
+    <div class="p-9">
+      <i class="fa-solid fa-user-group ml-14"></i>
+      <h1 class="ml-10 text-3xl font-bold">235+</h1>
+      <p>Happy Client Review</p>
+    </div>
+    <div class="p-9">
+      <i class="fa-solid fa-user-group ml-14"></i>
+      <h1 class="ml-10 text-3xl font-bold">235+</h1>
+      <p>Happy Client Review</p>
+    </div>
+    <div class="p-9">
+      <i class="fa-solid fa-user-group ml-14"></i>
+      <h1 class="ml-10 text-3xl font-bold">235+</h1>
+      <p>Happy Client Review</p>
+    </div>
+   
+  </div> 
 </section>
 <!-- our work -->
-<section class="bg-slate-50 mb-20 ">
+<section class="bg-slate-50 mb-20  ">
   <div class="text-center">
     <button class="text-center  bg-white px-8 py-2 rounded-full mb-5"><i class="fa-solid fa-arrow-right"></i> How we woeks</button>
     <h1 class="font-bold text-2xl">Our Works Process</h1>
@@ -123,22 +145,22 @@
   <div class=" lg:grid grid-cols-4  gap-5 p-10 ">
     <div class="bg-purple-200 rounded-xl p-5 mb-5">
       <img src="assets/concept.png" alt="">
-      <h5>Concept</h5>
+      <h5 class="font-bold">Concept</h5>
       <p>The barn house captivates with its blend of rustic charm and modern.</p>
     </div>
     <div class="bg-yellow-300 rounded-xl p-5 mb-5">
-      <img src="assets/concept.png" alt="">
-      <h5>Concept</h5>
+      <img src="assets/flow-chart.png" alt="">
+      <h5 class="font-bold">Design Process</h5>
       <p>The barn house captivates with its blend of rustic charm and modern.</p>
     </div>
     <div class="bg-green-200 rounded-xl p-5 mb-5">
-      <img src="assets/concept.png" alt="">
-      <h5>Concept</h5>
+      <img src="assets/vision.png" alt="">
+      <h5 class="font-bold">Supervision</h5>
       <p>The barn house captivates with its blend of rustic charm and modern.</p>
     </div>
     <div class="bg-blue-400 rounded-xl p-5 mb-5">
-      <img src="assets/concept.png" alt="">
-      <h5>Concept</h5>
+      <img src="assets/budget-planning.png" alt="">
+      <h5 class="font-bold">Budget Planning</h5>
       <p>The barn house captivates with its blend of rustic charm and modern.</p>
     </div>
   </div>
